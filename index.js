@@ -1,9 +1,19 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name);
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
+function takeANumber(katzDeliLine){
+  var ticketNumber = 
+  if (katzDeliLine.length === 0) {
+  return `Welcome, You are number ticket number ${katzDeliLine.length} in line.`
+  
 }
+
+// takeANumber["Alice", "Bob", "Tom"]
+// takeANumber["Alice"]
+
+// function takeANumber(katzDeliLine,name ){
+//   katzDeliLine.push(name);
+//   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
+// }
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
