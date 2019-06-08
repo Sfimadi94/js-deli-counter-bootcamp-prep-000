@@ -1,15 +1,14 @@
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine){
+  if (katzDeliLine.length > 0){
   
-// for (i = 0; i < katzDeliLine; i++){
-    // number = katzDeliLine.length(i);
-  }
+}
   return `Welcome, ${number}. You are number ${katzDeliLine.length} in line.`
 }
 
 // for (i = 0; i < katzDeliLine; i++){
-    // number = katzDeliLine.length(i);
+    // number = katzDeliLine.length(i)
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var status = `Currently serving ${katzDeliLine[0]}.`;
